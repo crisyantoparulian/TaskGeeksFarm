@@ -49,10 +49,32 @@
  
       <tr>
         <td width="400px">
+          <h1>Crisyanto P</h1>
       <img src="{{ asset('img/ronaldo.jpg') }}" class="img-circle" alt="Bdg">
         </td>
          <td>
-      Nama : Crisyanto Parulian
+      <table class="table table-striped">
+    <tbody>
+      <tr>
+        <td>Nama</td>
+        <td>Crisyanto P</td> 
+      </tr>
+      <tr>
+        <td>Tempat,Tanggal Lahir</td>
+        <td>Bandung,11 Juni 1995</td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>Laki-laki</td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>Jl.Bandung</td>
+      </tr>
+
+
+    </tbody>
+  </table>
     </td>
       </tr>
     
