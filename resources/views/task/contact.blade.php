@@ -35,7 +35,6 @@
       <ul class="nav navbar-nav">
         <li><a href="{{url('task1')}}">Home</a></li>
         <li class="active"><a href="{{url('profile')}}">Profile</a></li>
-        <li><a href="{{url('contact')}}">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -58,21 +57,26 @@
       <table class="table table-striped">
     <tbody>
       <tr>
-        <td>Nama</td>
-        <td>Crisyanto P</td> 
+        <td>Email</td>
+        <td>
+          <div class="form-group">
+      <input type="text" class="form-control" id="usr">
+    </div>
+  </td> 
       </tr>
       <tr>
-        <td>Tempat,Tanggal Lahir</td>
-        <td>Bandung,11 Juni 1995</td>
+        <td>Messages</td>
+        <td>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </td>
       </tr>
       <tr>
-        <td>Jenis Kelamin</td>
-        <td>Laki-laki</td>
+        <td>
+          <button type="button" class="btn btn-default">Submit</button>
+        </td>
+        <td></td>
       </tr>
-      <tr>
-        <td>Alamat</td>
-        <td>Jl.Bandung</td>
-      </tr>
+ 
 
 
     </tbody>

@@ -20,3 +20,6 @@ Route::get('task1', function () {
 Route::get('profile', function () {
     return view('task.profile');
 });
+Route::get('contact', function () {
+    return view('task.contact');
+});

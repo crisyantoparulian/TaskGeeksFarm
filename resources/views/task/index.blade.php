@@ -35,6 +35,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="{{url('task1')}}">Home</a></li>
         <li><a href="{{url('profile')}}">Profile</a></li>
+        <li><a href="{{url('contact')}}">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
