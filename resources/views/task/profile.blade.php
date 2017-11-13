@@ -4,7 +4,7 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -44,8 +44,20 @@
 </nav>
 
 
-  
-
+  <div class="table-responsive">
+  <table class="table">
+ 
+      <tr>
+        <td width="400px">
+      <img src="{{ asset('img/ronaldo.jpg') }}" class="img-circle" alt="Bdg">
+        </td>
+         <td>
+      Nama : Crisyanto Parulian
+    </td>
+      </tr>
+    
+  </table>
+  </div>
 
 <br>
 
