@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Task</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -48,11 +48,12 @@
   <table class="table">
  
       <tr>
-        <td width="400px">
+        <td width="200px" height="200px">
           <h1>Crisyanto P</h1>
       <img src="{{ asset('img/ronaldo.jpg') }}" class="img-circle" alt="Bdg">
         </td>
-         <td>
+         <td >
+         <br/><br/><br/><br/><br/><br/><br/>
       <table class="table table-striped">
     <tbody>
       <tr>
@@ -75,6 +76,7 @@
 
     </tbody>
   </table>
+
     </td>
       </tr>
     
