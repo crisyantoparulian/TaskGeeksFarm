@@ -34,7 +34,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="{{url('task1')}}">Home</a></li>
-        <li class="active"><a href="{{url('profile')}}">Profile</a></li>
+        <li><a href="{{url('profile')}}">Profile</a></li>
+        <li class="active"><a href="{{url('contact')}}">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -48,12 +49,12 @@
   <table class="table">
  
       <tr>
-        <td width="200px" height="200px">
+        <td width="400px" height="200px">
           <h1>Crisyanto P</h1>
       <img src="{{ asset('img/ronaldo.jpg') }}" class="img-circle" alt="Bdg">
         </td>
          <td >
-         <br/><br/><br/><br/><br/><br/><br/>
+         <br/><br/><br/><br/><br/>
       <table class="table table-striped">
     <tbody>
       <tr>
