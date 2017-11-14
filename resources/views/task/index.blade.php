@@ -85,14 +85,22 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-  
+  <div class="col-sm-4">
+      <p>Hello nama saya Crisyanto dan saya saat ini akan lulus
+      dari kuliah, salam kenal ya. Berikut contoh dari hasil desgn grafik yang saya buat.</p>
+    </div>
+    <div class="col-sm-4">
+      </div>
+        <div class="col-sm-4">        
+      <p>Facebook : CrisyantoParulian</p>
+      <p>Twitter :crisyanto@gmail.com</p>
+      <p>Tellp :022-897297392</p>
+      <p>Alamat :jl.cigondewah bandung Indonesia</p>
+    </div>
+
 
 
 <br>
-
-<footer class="container-fluid text-center">
-  <p>@CrisyantoParulian</p>
-</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 </body>
