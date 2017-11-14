@@ -44,18 +44,21 @@
   </div>
 </nav>
 
-
-  <div class="table-responsive">
-  <table class="table">
- 
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <table>
       <tr>
-        <td width="400px" height="200px">
+        <td width="200px" height="200px">
           <h1>Crisyanto P</h1>
-      <img src="{{ asset('img/ronaldo.jpg') }}" class="img-circle" alt="Bdg">
+      <img src="{{ asset('img/ronaldo.jpg') }}" class="img-circle" alt="Bdg" width="200px" height="200px">
         </td>
-         <td >
-         <br/><br/><br/><br/><br/>
+    
+         </table>>
+    </div>
+    <div class="col-sm-4">
       <table class="table table-striped">
+      </br></br></br>
     <tbody>
       <tr>
         <td>Email</td>
@@ -82,12 +85,12 @@
 
     </tbody>
   </table>
-
-    </td>
-      </tr>
-    
-  </table>
+    </div>
   </div>
+</div>
+
+
+
 
 <br>
 
